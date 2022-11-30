@@ -1,6 +1,7 @@
 import './App.css'
 import React from "react";
 
+import DiretaPai from './components/comunicacao/DiretaPai';
 import UsuarioInfo from './components/condicional/UsuarioInfo';
 import ParOuImpar from './components/condicional/ParOuImpar';
 import TabelaProdutos from './components/repeticao/TabelaProdutos';
@@ -20,13 +21,14 @@ export default () => (
 
         <div className="Cards">
 
-        <Card titulo="#09 - Renderização Condicional " color="#329AD9">
-        <ParOuImpar numero= {21}></ParOuImpar>
-        <UsuarioInfo usuario = {{ nome: 'Pedro'}}></UsuarioInfo>
+
+        <Card titulo="#09 - Comunicação Direta " color="#329AD9">
+            <DiretaPai></DiretaPai>
         </Card>
 
         <Card titulo="#08 - Renderização Condicional " color="#329AD9">
-        <ParOuImpar numero= {20}></ParOuImpar>
+        <ParOuImpar numero= {21}></ParOuImpar>
+        <UsuarioInfo usuario = {{ nome: 'Pedro'}}></UsuarioInfo>
         </Card>
 
         <Card titulo="#07 - Desafio Repetição " color="#329AD9">

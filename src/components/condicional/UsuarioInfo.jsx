@@ -1,5 +1,5 @@
 import React from "react";
-import IF from './if'
+import IF, {Else} from './if'
 
 export default props => {
     const usuario = props.usuario || {}
