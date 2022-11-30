@@ -14,6 +14,7 @@ import Primeiro from './components/básicos/Primeiro'
 import ComParametro from './components/básicos/ComParametro'
 import Fragmento from './components/básicos/Fragmento'
 
+import  IndiretaPai from 'src/components/comunicacao/InderetaFilho.jsx'
 
 export default () => (
     <div className='app'>
@@ -21,6 +22,9 @@ export default () => (
 
         <div className="Cards">
 
+        <Card titulo=" #10 - Comunicação InDireta " color="#329AD9">
+            <IndiretaPai />
+        </Card>
 
         <Card titulo="#09 - Comunicação Direta " color="#329AD9">
             <DiretaPai></DiretaPai>
