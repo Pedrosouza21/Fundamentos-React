@@ -1,6 +1,7 @@
 import './App.css'
 import React from "react";
 
+
 import DiretaPai from './components/comunicacao/DiretaPai';
 import UsuarioInfo from './components/condicional/UsuarioInfo';
 import ParOuImpar from './components/condicional/ParOuImpar';
@@ -14,13 +15,19 @@ import Primeiro from './components/básicos/Primeiro'
 import ComParametro from './components/básicos/ComParametro'
 import Fragmento from './components/básicos/Fragmento'
 
-import  IndiretaPai from 'src/components/comunicacao/InderetaFilho.jsx'
+import IndiretaPai from 'src/components/comunicacao/InderetaFilho.jsx'
+import Input from './components/formulario/input';
 
 export default () => (
     <div className='app'>
         <h1>Fundamentos React</h1>
 
         <div className="Cards">
+
+
+        <Card titulo= "#11 - Componente Controlado (Input) " color="#329AD9">
+            <Input />
+        </Card>
 
         <Card titulo=" #10 - Comunicação InDireta " color="#329AD9">
             <IndiretaPai />
